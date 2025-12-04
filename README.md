@@ -32,9 +32,3 @@ This project replicates the workflow used by SOC analysts during email-based thr
 
 
 ## Steps
-<img width="858" height="937" alt="email_itself" src="https://github.com/user-attachments/assets/30e4e61b-3a34-46ce-9dc8-3260d6c57f05" />
-
-
-Example below.
-
-*Ref 1: Network Diagram*
