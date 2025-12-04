@@ -59,6 +59,22 @@ Querying the SPF record of the senders domain using nslookup:  <br/>
 <img width="1219" height="179" alt="domainSPFrecordlookup" src="https://github.com/user-attachments/assets/c7405be0-a301-4ff7-85cc-55039a73b803" />
 <br />
 <br />
+ Decoding the email's base64 encoded HTML body using the CyberChef tool:  <br/>
+<img width="1273" height="1032" alt="cyberchef" src="https://github.com/user-attachments/assets/66815a61-8417-4b2d-8180-e42a042ce90d" />
+<br />
+<br />
+ Querying the SPF record of the senders domain using nslookup:  <br/>
+<img width="1219" height="179" alt="domainSPFrecordlookup" src="https://github.com/user-attachments/assets/c7405be0-a301-4ff7-85cc-55039a73b803" />
+<br />
+<br />
+ Querying the SPF record of the senders domain using nslookup:  <br/>
+<img width="1219" height="179" alt="domainSPFrecordlookup" src="https://github.com/user-attachments/assets/c7405be0-a301-4ff7-85cc-55039a73b803" />
+<br />
+<br />
+ Querying the SPF record of the senders domain using nslookup:  <br/>
+<img width="1219" height="179" alt="domainSPFrecordlookup" src="https://github.com/user-attachments/assets/c7405be0-a301-4ff7-85cc-55039a73b803" />
+<br />
+<br />
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
