@@ -43,10 +43,14 @@ This screenshot shows the original email as received by the user. It appears to 
 <br />
 Viewing the Raw .eml File in Sublime Text to Inspect Email Headers:  <br/>
 <img width="1239" height="841" alt="Screenshot 2025-12-03 222834" src="https://github.com/user-attachments/assets/7d8bcdf5-af34-482b-abee-a7ba104d26cf" />
+
+The phishing email was opened in Sublime Text using the .eml file format to view the full message headers and underlying metadata. Inspecting the raw source provides visibility into sender information, authentication results, and hidden HTML content that is not shown in normal email clients.
 <br />
 <br />
 Finding the headers: <br/>
 <img width="659" height="239" alt="emailheader" src="https://github.com/user-attachments/assets/8e120c21-98e1-44bc-8360-716cf4bcc20d" />
+
+This screenshot highlights the key header fields such as From, Return-Path, Message-ID, and Date—used to validate the legitimacy of the sender. These fields are crucial for tracing the origin of the message and identifying spoofing or relay abuse.
 <br />
 <br />
 Analyzing mail flow and authentication results (SPF, DKIM, DMARC):  <br/>
