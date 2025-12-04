@@ -54,7 +54,7 @@ The phishing email was opened in Sublime Text using the .eml file format to view
 <br />
 <br />
 
-Finding the headers: <br/>
+<p align="center"><b>Finding the headers:</b></p>
 <img width="659" height="239" alt="emailheader" src="https://github.com/user-attachments/assets/8e120c21-98e1-44bc-8360-716cf4bcc20d" />
 
 This screenshot highlights the key header fields such as From, Return-Path, Message-ID, and Date—used to validate the legitimacy of the sender. These fields are crucial for tracing the origin of the message and identifying spoofing or relay abuse.
@@ -64,7 +64,7 @@ This screenshot highlights the key header fields such as From, Return-Path, Mess
 <br />
 <br />
 
-Analyzing mail flow and authentication results (SPF, DKIM, DMARC): <br/>
+<p align="center"><b>Analyzing Mail Flow and Authentication Results (SPF, DKIM, DMARC):</b></p>
 <img width="698" height="155" alt="mail flow and authentication analysis" src="https://github.com/user-attachments/assets/3da1f61e-73f0-4b50-9914-daf7a5e2e4c6" />
 
 The authentication results show that while SPF and DKIM passed, they passed for the wrong domain, indicating that the attacker used a legitimate mail server (Outlook) but did not send from a legitimate Microsoft-owned domain. CompAuth/DMARC results further highlight inconsistencies that reinforce the phishing classification.
@@ -74,7 +74,7 @@ The authentication results show that while SPF and DKIM passed, they passed for 
 <br />
 <br />
 
-Performing a reverse DNS lookup on the sender's IP address:  <br/>
+<p align="center"><b>Performing a Reverse DNS Lookup on the Sender’s IP Address:</b></p>
 <img width="1215" height="573" alt="reverse dns lookup fail" src="https://github.com/user-attachments/assets/a6604d21-3257-448e-9310-8555c9c046e7" />
 
 A reverse DNS lookup was attempted on the sender’s IP (40.107.22.60) to resolve the hostname. The lookup returned SERVFAIL, indicating that the PTR record could not be retrieved. This step demonstrates an attempt to validate whether the mail originated from an expected domain. Failure to resolve the hostname is a common artifact of phishing campaigns.
@@ -84,7 +84,7 @@ A reverse DNS lookup was attempted on the sender’s IP (40.107.22.60) to resolv
 <br />
 <br />
 
-Querying the SPF record of the senders domain using nslookup:  <br/>
+<p align="center"><b>Querying the SPF Record of the Sender’s Domain Using nslookup:</b></p>
 <img width="1219" height="179" alt="domainSPFrecordlookup" src="https://github.com/user-attachments/assets/c7405be0-a301-4ff7-85cc-55039a73b803" />
 
 Using nslookup -type=txt helwan.edu.eg, the SPF record for the sender’s domain was retrieved. The record (v=spf1 include:spf.protection.outlook.com -all) shows that the domain authorizes Outlook mail servers to send on its behalf. This finding confirms that the attacker likely abused a compromised mailbox or tenant rather than spoofing the domain directly.
@@ -94,7 +94,7 @@ Using nslookup -type=txt helwan.edu.eg, the SPF record for the sender’s domain
 <br />
 <br />
 
-Decoding the email's base64 encoded HTML body using the CyberChef tool:  <br/>
+<p align="center"><b>Decoding the Email's Base64 Encoded HTML Body Using CyberChef:</b></p>
 <img width="1273" height="1032" alt="cyberchef" src="https://github.com/user-attachments/assets/66815a61-8417-4b2d-8180-e42a042ce90d" />
 
 The HTML body of the email was encoded in Base64. After decoding it in CyberChef, the true content of the phishing message became visible, including the malicious call-to-action button and embedded phishing URL. This confirms the attacker attempted to conceal the phishing content from basic text inspections.
@@ -104,7 +104,7 @@ The HTML body of the email was encoded in Base64. After decoding it in CyberChef
 <br />
 <br />
 
-Submitting the extracted URL to URLScan.io for reputation and behavioral analysis:  <br/>
+<p align="center"><b>Submitting the Extracted URL to URLScan.io:</b></p>
 <img width="1253" height="708" alt="urlscan io" src="https://github.com/user-attachments/assets/ac8fb4ee-6539-40a0-ba56-bf9daee84ffd" />
 
 The decoded phishing URL was submitted to URLScan for behavioral analysis. Although the hosting server is now offline, the scan still provides historical reputation details, domain information, and any available indicators of malicious activity.
@@ -114,7 +114,7 @@ The decoded phishing URL was submitted to URLScan for behavioral analysis. Altho
 <br />
 <br />
 
-Reviewing URLScan's JSON output showing the failed request:  <br/>
+<p align="center"><b>Reviewing URLScan’s JSON Output Showing the Failed Request:</b></p>
 <img width="760" height="217" alt="jsonblock_errorfail" src="https://github.com/user-attachments/assets/ba2a0219-11b8-4e47-8d52-c275fadabb5e" />
 
 URLScan’s JSON results highlight the failed HTTP request (net::ERR_CONNECTION_CLOSED). This indicates that while the phishing site has likely been taken down, the infrastructure previously hosted malicious content. Capturing the failed request proves the URL was active in the past.
@@ -124,7 +124,7 @@ URLScan’s JSON results highlight the failed HTTP request (net::ERR_CONNECTION_
 <br />
 <br />
 
-Analyzing the phishing URL using VirusTotal's multi-engine scanner :  <br/>
+<p align="center"><b>Analyzing the Phishing URL Using VirusTotal’s Multi-Engine Scanner:</b></p>
 <img width="1255" height="610" alt="virustotal" src="https://github.com/user-attachments/assets/0eb634f9-cf10-4992-b4e2-ade4affd4298" />
 
 The phishing URL was submitted to VirusTotal to verify its reputation across multiple antivirus and threat-intelligence engines. Several engines previously detected the domain as malicious or phishing, confirming that the URL was part of a credential-harvesting campaign even though it is now offline.
@@ -134,7 +134,7 @@ The phishing URL was submitted to VirusTotal to verify its reputation across mul
 <br />
 <br />
 
-Phishing investigation report summarizing all findings:  <br/>
+<p align="center"><b>Phishing Investigation Report Summarizing All Findings:</b></p>
 <img width="665" height="1142" alt="documentation_report" src="https://github.com/user-attachments/assets/38832843-fb38-433e-b051-f3221940ae00" />
 
 This is the completed investigation report summarizing all findings from the analysis: sender investigation, header review, SPF and DNS checks, content decoding, URL reputation analysis, and final verdict. The report concludes with recommended defense actions such as blocking the sender, filtering the malicious URL, and confirming no additional users were targeted.
