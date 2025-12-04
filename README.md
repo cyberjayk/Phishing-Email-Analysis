@@ -43,8 +43,8 @@ Viewing the Raw .eml File in Sublime Text to Inspect Email Headers:  <br/>
 <img width="1630" height="653" alt="sublopeningemail" src="https://github.com/user-attachments/assets/68a2f7e7-d1c4-46a5-b235-7c7cbe3739e0" />
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Finding the headers using colorization: <br/>
+<img width="659" height="239" alt="emailheader" src="https://github.com/user-attachments/assets/30734b5e-ec65-488e-82e9-c3aabccf01b0" />
 <br />
 <br />
 Confirm your selection:  <br/>
