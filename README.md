@@ -47,7 +47,7 @@ Finding the headers: <br/>
 <img width="659" height="239" alt="emailheader" src="https://github.com/user-attachments/assets/8e120c21-98e1-44bc-8360-716cf4bcc20d" />
 <br />
 <br />
-Analyzing mail flow and authentication results:  <br/>
+Analyzing mail flow and authentication results (SPF, DKIM, DMARC):  <br/>
 <img width="698" height="155" alt="mail flow and authentication analysis" src="https://github.com/user-attachments/assets/3da1f61e-73f0-4b50-9914-daf7a5e2e4c6" />
 <br />
 <br />
