@@ -44,7 +44,7 @@ This screenshot shows the original email as received by the user. It appears to 
 <br />
 <br />
 
-Viewing the Raw .eml File in Sublime Text to Inspect Email Headers:  <br/>
+Viewing the Raw .eml File in Sublime Text to Inspect Email Headers: <br/>
 <img width="1239" height="841" alt="Screenshot 2025-12-03 222834" src="https://github.com/user-attachments/assets/7d8bcdf5-af34-482b-abee-a7ba104d26cf" />
 
 The phishing email was opened in Sublime Text using the .eml file format to view the full message headers and underlying metadata. Inspecting the raw source provides visibility into sender information, authentication results, and hidden HTML content that is not shown in normal email clients.
@@ -64,7 +64,7 @@ This screenshot highlights the key header fields such as From, Return-Path, Mess
 <br />
 <br />
 
-Analyzing mail flow and authentication results (SPF, DKIM, DMARC):  <br/>
+Analyzing mail flow and authentication results (SPF, DKIM, DMARC): <br/>
 <img width="698" height="155" alt="mail flow and authentication analysis" src="https://github.com/user-attachments/assets/3da1f61e-73f0-4b50-9914-daf7a5e2e4c6" />
 
 The authentication results show that while SPF and DKIM passed, they passed for the wrong domain, indicating that the attacker used a legitimate mail server (Outlook) but did not send from a legitimate Microsoft-owned domain. CompAuth/DMARC results further highlight inconsistencies that reinforce the phishing classification.
