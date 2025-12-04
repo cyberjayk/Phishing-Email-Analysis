@@ -97,6 +97,8 @@ Using nslookup -type=txt helwan.edu.eg, the SPF record for the sender’s domain
 Decoding the email's base64 encoded HTML body using the CyberChef tool:  <br/>
 <img width="1273" height="1032" alt="cyberchef" src="https://github.com/user-attachments/assets/66815a61-8417-4b2d-8180-e42a042ce90d" />
 
+The HTML body of the email was encoded in Base64. After decoding it in CyberChef, the true content of the phishing message became visible, including the malicious call-to-action button and embedded phishing URL. This confirms the attacker attempted to conceal the phishing content from basic text inspections.
+
 <br />
 <br />
 <br />
@@ -104,6 +106,8 @@ Decoding the email's base64 encoded HTML body using the CyberChef tool:  <br/>
 
 Submitting the extracted URL to URLScan.io for reputation and behavioral analysis:  <br/>
 <img width="1253" height="708" alt="urlscan io" src="https://github.com/user-attachments/assets/ac8fb4ee-6539-40a0-ba56-bf9daee84ffd" />
+
+The decoded phishing URL was submitted to URLScan for behavioral analysis. Although the hosting server is now offline, the scan still provides historical reputation details, domain information, and any available indicators of malicious activity.
 
 <br />
 <br />
@@ -113,6 +117,8 @@ Submitting the extracted URL to URLScan.io for reputation and behavioral analysi
 Reviewing URLScan's JSON output showing the failed request:  <br/>
 <img width="760" height="217" alt="jsonblock_errorfail" src="https://github.com/user-attachments/assets/ba2a0219-11b8-4e47-8d52-c275fadabb5e" />
 
+URLScan’s JSON results highlight the failed HTTP request (net::ERR_CONNECTION_CLOSED). This indicates that while the phishing site has likely been taken down, the infrastructure previously hosted malicious content. Capturing the failed request proves the URL was active in the past.
+
 <br />
 <br />
 <br />
@@ -121,6 +127,8 @@ Reviewing URLScan's JSON output showing the failed request:  <br/>
 Analyzing the phishing URL using VirusTotal's multi-engine scanner :  <br/>
 <img width="1255" height="610" alt="virustotal" src="https://github.com/user-attachments/assets/0eb634f9-cf10-4992-b4e2-ade4affd4298" />
 
+The phishing URL was submitted to VirusTotal to verify its reputation across multiple antivirus and threat-intelligence engines. Several engines previously detected the domain as malicious or phishing, confirming that the URL was part of a credential-harvesting campaign even though it is now offline.
+
 <br />
 <br />
 <br />
@@ -128,4 +136,7 @@ Analyzing the phishing URL using VirusTotal's multi-engine scanner :  <br/>
 
 Phishing investigation report summarizing all findings:  <br/>
 <img width="665" height="1142" alt="documentation_report" src="https://github.com/user-attachments/assets/38832843-fb38-433e-b051-f3221940ae00" />
+
+This is the completed investigation report summarizing all findings from the analysis: sender investigation, header review, SPF and DNS checks, content decoding, URL reputation analysis, and final verdict. The report concludes with recommended defense actions such as blocking the sender, filtering the malicious URL, and confirming no additional users were targeted.
+
 </p>
