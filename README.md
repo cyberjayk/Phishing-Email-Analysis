@@ -20,15 +20,15 @@ This project replicates the workflow used by SOC analysts during email-based thr
   * Writing clear, actionable incident documentation and reporting
 
 ### Tools Used
-Ubuntu Terminal (nslookup, whois)
+  * Ubuntu Terminal (nslookup, whois)
 
-Sublime Text for viewing .eml files with header colorization
+  * Sublime Text for viewing .eml files with header colorization
 
-CyberChef for decoding base64 and extracting embedded URLs
+  * CyberChef for decoding base64 and extracting embedded URLs
 
-URLScan.io for reputation scanning and infrastructure analysis
+  * URLScan.io for reputation scanning and infrastructure analysis
 
-VirusTotal for multi-engine URL analysis
+  * VirusTotal for multi-engine URL analysis
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
