@@ -37,6 +37,7 @@ This project replicates the workflow used by SOC analysts during email-based thr
 <p align="center">
 The suspicious email we're analyzing: <br/>
 <img width="858" height="937" alt="email_itself" src="https://github.com/user-attachments/assets/198a9a23-a0d8-41cf-b853-6883199c118e" />
+ 
 This screenshot shows the original email as received by the user. It appears to impersonate the Microsoft Support Team and claims the user’s account has been flagged for unusual activity. The vague urgency, generic greeting, and mismatched sender address are all early indicators of a phishing attempt.
 <br />
 <br />
