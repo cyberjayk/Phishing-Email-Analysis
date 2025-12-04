@@ -75,6 +75,6 @@ Analyzing the phishing URL using VirusTotal's multi-engine scanner :  <br/>
 <img width="1255" height="610" alt="virustotal" src="https://github.com/user-attachments/assets/0eb634f9-cf10-4992-b4e2-ade4affd4298" />
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Phishing investigation report summarizing all findings:  <br/>
+<img width="665" height="1142" alt="documentation_report" src="https://github.com/user-attachments/assets/38832843-fb38-433e-b051-f3221940ae00" />
 </p>
