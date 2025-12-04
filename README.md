@@ -43,7 +43,6 @@ This screenshot shows the original email as received by the user. It appears to 
 <br />
 <br />
 <br />
-
 Viewing the Raw .eml File in Sublime Text to Inspect Email Headers: <br/>
 <img width="1239" height="841" alt="Screenshot 2025-12-03 222834" src="https://github.com/user-attachments/assets/7d8bcdf5-af34-482b-abee-a7ba104d26cf" />
 
