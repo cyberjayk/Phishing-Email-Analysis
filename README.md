@@ -41,10 +41,12 @@ The suspicious email we're analyzing: <br/>
 This screenshot shows the original email as received by the user. It appears to impersonate the Microsoft Support Team and claims the user’s account has been flagged for unusual activity. The vague urgency, generic greeting, and mismatched sender address are all early indicators of a phishing attempt.
 <br />
 <br />
+
 Viewing the Raw .eml File in Sublime Text to Inspect Email Headers:  <br/>
 <img width="1239" height="841" alt="Screenshot 2025-12-03 222834" src="https://github.com/user-attachments/assets/7d8bcdf5-af34-482b-abee-a7ba104d26cf" />
 
 The phishing email was opened in Sublime Text using the .eml file format to view the full message headers and underlying metadata. Inspecting the raw source provides visibility into sender information, authentication results, and hidden HTML content that is not shown in normal email clients.
+
 <br />
 <br />
 Finding the headers: <br/>
