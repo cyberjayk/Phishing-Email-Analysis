@@ -45,7 +45,7 @@ This screenshot shows the original email as received by the user. It appears to 
 <br />
 
 <p align="center"><b>Viewing the Raw .eml File in Sublime Text:</b></p>
-<pimg width="1239" height="841" alt="Screenshot 2025-12-03 222834" src="https://github.com/user-attachments/assets/7d8bcdf5-af34-482b-abee-a7ba104d26cf" />
+<img width="1239" height="841" alt="Screenshot 2025-12-03 222834" src="https://github.com/user-attachments/assets/7d8bcdf5-af34-482b-abee-a7ba104d26cf" />
 
 The phishing email was opened in Sublime Text using the .eml file format to view the full message headers and underlying metadata. Inspecting the raw source provides visibility into sender information, authentication results, and hidden HTML content that is not shown in normal email clients.
 
