@@ -55,8 +55,8 @@ Performing a reverse DNS lookup on the sender's IP address:  <br/>
 <img width="1215" height="573" alt="reverse dns lookup fail" src="https://github.com/user-attachments/assets/a6604d21-3257-448e-9310-8555c9c046e7" />
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Querying the SPF record of the senders domain using nslookup:  <br/>
+<img width="1219" height="179" alt="domainSPFrecordlookup" src="https://github.com/user-attachments/assets/c7405be0-a301-4ff7-85cc-55039a73b803" />
 <br />
 <br />
 Observe the wiped disk:  <br/>
