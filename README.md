@@ -40,11 +40,11 @@ The suspicious email we're analyzing: <br/>
 <br />
 <br />
 Viewing the Raw .eml File in Sublime Text to Inspect Email Headers:  <br/>
-<img width="659" height="239" alt="emailheader" src="https://github.com/user-attachments/assets/8e120c21-98e1-44bc-8360-716cf4bcc20d" />
+
 <br />
 <br />
 Finding the headers using colorization: <br/>
-<img width="659" height="239" alt="emailheader" src="https://github.com/user-attachments/assets/30734b5e-ec65-488e-82e9-c3aabccf01b0" />
+<img width="659" height="239" alt="emailheader" src="https://github.com/user-attachments/assets/8e120c21-98e1-44bc-8360-716cf4bcc20d" />
 <br />
 <br />
 Confirm your selection:  <br/>
