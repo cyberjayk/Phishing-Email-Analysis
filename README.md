@@ -57,14 +57,20 @@ This screenshot highlights the key header fields such as From, Return-Path, Mess
 <br />
 Analyzing mail flow and authentication results (SPF, DKIM, DMARC):  <br/>
 <img width="698" height="155" alt="mail flow and authentication analysis" src="https://github.com/user-attachments/assets/3da1f61e-73f0-4b50-9914-daf7a5e2e4c6" />
+
+The authentication results show that while SPF and DKIM passed, they passed for the wrong domain, indicating that the attacker used a legitimate mail server (Outlook) but did not send from a legitimate Microsoft-owned domain. CompAuth/DMARC results further highlight inconsistencies that reinforce the phishing classification.
 <br />
 <br />
 Performing a reverse DNS lookup on the sender's IP address:  <br/>
 <img width="1215" height="573" alt="reverse dns lookup fail" src="https://github.com/user-attachments/assets/a6604d21-3257-448e-9310-8555c9c046e7" />
+
+A reverse DNS lookup was attempted on the sender’s IP (40.107.22.60) to resolve the hostname. The lookup returned SERVFAIL, indicating that the PTR record could not be retrieved. This step demonstrates an attempt to validate whether the mail originated from an expected domain. Failure to resolve the hostname is a common artifact of phishing campaigns.
 <br />
 <br />
 Querying the SPF record of the senders domain using nslookup:  <br/>
 <img width="1219" height="179" alt="domainSPFrecordlookup" src="https://github.com/user-attachments/assets/c7405be0-a301-4ff7-85cc-55039a73b803" />
+
+Using nslookup -type=txt helwan.edu.eg, the SPF record for the sender’s domain was retrieved. The record (v=spf1 include:spf.protection.outlook.com -all) shows that the domain authorizes Outlook mail servers to send on its behalf. This finding confirms that the attacker likely abused a compromised mailbox or tenant rather than spoofing the domain directly.
 <br />
 <br />
 Decoding the email's base64 encoded HTML body using the CyberChef tool:  <br/>
