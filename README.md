@@ -71,8 +71,8 @@ Reviewing URLScan's JSON output showing the failed request:  <br/>
 <img width="760" height="217" alt="jsonblock_errorfail" src="https://github.com/user-attachments/assets/ba2a0219-11b8-4e47-8d52-c275fadabb5e" />
 <br />
 <br />
- Querying the SPF record of the senders domain using nslookup:  <br/>
-<img width="1219" height="179" alt="domainSPFrecordlookup" src="https://github.com/user-attachments/assets/c7405be0-a301-4ff7-85cc-55039a73b803" />
+Analyzing the phishing URL using VirusTotal's multi-engine scanner :  <br/>
+<img width="1255" height="610" alt="virustotal" src="https://github.com/user-attachments/assets/0eb634f9-cf10-4992-b4e2-ade4affd4298" />
 <br />
 <br />
 Observe the wiped disk:  <br/>
