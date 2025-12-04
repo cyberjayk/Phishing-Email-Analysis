@@ -30,11 +30,10 @@ This project replicates the workflow used by SOC analysts during email-based thr
 
   * VirusTotal for multi-engine URL analysis
 
+
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
 <img width="858" height="937" alt="email_itself" src="https://github.com/user-attachments/assets/30e4e61b-3a34-46ce-9dc8-3260d6c57f05" />
 
-Every screenshot should have some text explaining what the screenshot is about.
 
 Example below.
 
