@@ -15,9 +15,13 @@ Writing clear, actionable incident documentation and reporting
 
 ### Tools Used
 Ubuntu Terminal (nslookup, whois)
+
 Sublime Text for viewing .eml files with header colorization
+
 CyberChef for decoding base64 and extracting embedded URLs
+
 URLScan.io for reputation scanning and infrastructure analysis
+
 VirusTotal for multi-engine URL analysis
 
 ## Steps
