@@ -33,5 +33,9 @@ This project replicates the workflow used by SOC analysts during email-based thr
 
 
 
-## Steps
-<img width="858" height="937" alt="email_itself" src="https://github.com/user-attachments/assets/a17f70e7-054f-4432-a6bc-4755845e707e" />
+## Project Walk Through
+<p align="center">
+The suspicious email we're analyzing: <br/>
+<img src="width="858" height="937" alt="email_itself" src="https://github.com/user-attachments/assets/a17f70e7-054f-4432-a6bc-4755845e707e" />
+<br />
+<br />
