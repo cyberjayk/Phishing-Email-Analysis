@@ -6,11 +6,17 @@ This project replicates the workflow used by SOC analysts during email-based thr
 
 ### Skills Learned
 Email header analysis (Return-Path, SPF, DKIM, DMARC, Received chain)
+
 Identifying sender spoofing and display-name impersonation
+
 Extracting and decoding base64-encoded email bodies
+
 URL reputation analysis using URLScan.io and VirusTotal
+
 Conducting reverse DNS lookups and WHOIS enrichment
+
 Understanding phishing infrastructure and credential-harvesting patterns
+
 Writing clear, actionable incident documentation and reporting
 
 ### Tools Used
