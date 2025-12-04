@@ -5,19 +5,19 @@ The objective of this project was to perform a full phishing email investigation
 This project replicates the workflow used by SOC analysts during email-based threat investigations.
 
 ### Skills Learned
-Email header analysis (Return-Path, SPF, DKIM, DMARC, Received chain)
+  * Email header analysis (Return-Path, SPF, DKIM, DMARC, Received chain)
 
-Identifying sender spoofing and display-name impersonation
+  * Identifying sender spoofing and display-name impersonation
 
-Extracting and decoding base64-encoded email bodies
+  * Extracting and decoding base64-encoded email bodies
 
-URL reputation analysis using URLScan.io and VirusTotal
+  * URL reputation analysis using URLScan.io and VirusTotal
 
-Conducting reverse DNS lookups and WHOIS enrichment
+  * Conducting reverse DNS lookups and WHOIS enrichment
 
-Understanding phishing infrastructure and credential-harvesting patterns
+  * Understanding phishing infrastructure and credential-harvesting patterns
 
-Writing clear, actionable incident documentation and reporting
+  * Writing clear, actionable incident documentation and reporting
 
 ### Tools Used
 Ubuntu Terminal (nslookup, whois)
